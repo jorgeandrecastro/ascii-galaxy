@@ -72,6 +72,22 @@ To use your custom ASCII art as a startup intro every time you open your termina
    ```
 3. Save and restart your terminal.
 
+
+### Alternative: Direct Binary Download (No Rust Required)
+
+If you don't have Rust installed, you can download the pre-compiled binary directly from the releases and use it instantly:
+
+```bash
+# Download the latest binary directly
+curl -L -o ascii-galaxy [https://github.com/jorgeandrecastro/ascii-galaxy/releases/latest/download/ascii-galaxy](https://github.com/jorgeandrecastro/ascii-galaxy/releases/latest/download/ascii-galaxy)
+
+# Make it executable
+chmod +x ascii-galaxy
+
+# Move it to your system PATH (optional)
+sudo mv ascii-galaxy /usr/local/bin/
+```  
+
 ---
 
 ## License
@@ -82,7 +98,7 @@ Copyright (c) 2026 Jorge Andre Castro
 ```text
 MIT License
 
-Copyright (c) 2026 ASCII Galaxy Contributors
+Copyright (c) 2026 Jorge Andre Castro
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
